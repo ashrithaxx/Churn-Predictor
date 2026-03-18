@@ -53,7 +53,7 @@ paperless      = st.sidebar.selectbox("Paperless Billing", ["Yes", "No"])
 payment_method = st.sidebar.selectbox("Payment Method",
                     ["Electronic check", "Mailed check",
                      "Bank transfer (automatic)", "Credit card (automatic)"])
-gender         = st.sidebar.selectbox("Gender", ["Male", "Female"]
+gender         = st.sidebar.selectbox("Gender", ["Male", "Female"])
                                       
 # LabelEncoder sorts alphabetically, so:
 encode = {
